@@ -11,9 +11,10 @@ int main()
         Pessoa pessoa3 = Pessoa("Maria", "5 4321-1237", 57);
         Pessoa pessoa4 = Pessoa("Joao", "8 8394-5938", 15);
 
-
-        cout << "CADASTRO DE PESSOAS"<< endl;
-        cout << "____________________________________" << endl;
+        cout << "______________________________________" << endl;
+        cout << "          CADASTRO DE PESSOAS         " << endl;
+        cout << "______________________________________" << endl;
+        cout << " " << endl;
         cout << "Nome: " << pessoa1.getNome() << endl;
         cout << "Idade: " << pessoa1.getIdade() << " anos" << endl;
         cout << "Telefone: " << pessoa1.getTelefone() << endl;
